@@ -1,0 +1,16 @@
+<h1>Tabla Productos</h1>
+
+    <table cellspacing="0" cellpadding="50" border="3">
+        <thead>
+          {{#each productos}}
+             <tr>
+                <th scope="col">{{nombre}}</th>
+                <th scope="col">{{precio}}</th>
+                <th scope="col"><img src="{{foto}}" alt="No se encuentra "></th>
+              </tr>
+            {{/each}}
+        </thead>
+  
+    </table>
+
+    <a id="btn" href="http://localhost:8080/productos">Producto</a>

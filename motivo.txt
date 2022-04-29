@@ -1,0 +1,1 @@
+Prefiero el motor de plantilla hbs porque me resulto más comodo y fácil, en cambio, pug me resulto molesto por el tema de las tabulaciones

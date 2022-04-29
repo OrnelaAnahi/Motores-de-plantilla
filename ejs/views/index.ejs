@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Productos</h1>
+  <form action="/productos" method="post">
+      <div class="form-group">
+          <label form="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre"><br>
+      </div>
+      <div class="form-group">
+          <label form="apellido">Precio</label>
+          <input type="text" name="precio" id="precio" placeholder="Precio"><br>
+      </div>
+      <div class="form-group">
+          <label for="edad">Foto</label>
+          <input type="text" name="foto" id="foto" placeholder="Foto"><br><br>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    <a class="btn" href="http://localhost:8080/productosHandle">Ir a ver productos</a>
+</body>
+</html>
